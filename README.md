@@ -2,6 +2,8 @@
 
 User interface for handwritten digits recognition and VGG16 neural networks using Qt Creator and TensorFlow.
 
+![Alt text](https://github.com/polivier2/MLViewer/blob/master/screenshots/welcome.png)
+
 ## Getting Started
 
 Follow these instructions to get a copy of the project and make it run on your local machine (only tested with Ubuntu 18.04). 
@@ -33,8 +35,8 @@ Once you have cloned and opened this project with Qt Creator, you have to disabl
 	|	|-- SAVED_MODEL
 	|   	|     	|-- 1
 	|   	|	|   |-- variables
-	|   	|	|	    |-- variables.data
-	|   	|	|	    |-- variables.index
+	|   	|	|   |    |-- variables.data
+	|   	|	|   |    |-- variables.index
 	|   	|	|   |-- saved_model.pb
 	|   	|	|-- graph_for_model_1_xxxxxxxx
 	|   	|	|   |-- events.out.tfevents.xxxxxxxxxx.user
@@ -64,14 +66,21 @@ Once you have cloned and opened this project with Qt Creator, you have to disabl
 
 ### MNIST
 
+![Alt text](https://github.com/polivier2/MLViewer/blob/master/screenshots/mnist.png)
+
 ### VGG16
 
+![Alt text](https://github.com/polivier2/MLViewer/blob/master/screenshots/vgg16.png)
 
 ## TODO
 
 - Load every type of model: allow user to specify input and output layers name of trained model
 - Zoom on small pictures
 - Reset only the output for MNIST 
+
+## Icons
+
+Credits: Icons made by Freepik from www.flaticon.com 
 
 ## Authors
 
