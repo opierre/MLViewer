@@ -31,13 +31,13 @@ Once you have cloned and opened this project with Qt Creator, you have to disabl
 	|	|-- own_3.png
 	|	|-- own_4.png
 	|	|-- SAVED_MODEL
-	|   |     	|-- 1
-	|   |		|	|-- variables
-	|   |		|		|-- variables.data
-	|   |		|		|-- variables.index
-	|   |		|	|-- saved_model.pb
-	|   |		|-- graph_for_model_1_xxxxxxxx
-	|   |		|	|-- events.out.tfevents.xxxxxxxxxx.user
+	|   	|     	|-- 1
+	|   	|	|   |-- variables
+	|   	|	|	    |-- variables.data
+	|   	|	|	    |-- variables.index
+	|   	|	|   |-- saved_model.pb
+	|   	|	|-- graph_for_model_1_xxxxxxxx
+	|   	|	|   |-- events.out.tfevents.xxxxxxxxxx.user
 	|-- scripts
 	|	|-- base.py
 	|	|-- init_test.py
